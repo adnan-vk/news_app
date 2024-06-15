@@ -130,13 +130,6 @@ Padding categoryBuilder(double height, double width) {
                                               color: Colors.black54,
                                               fontWeight: FontWeight.bold),
                                         ),
-                                        IconButton(
-                                          onPressed: () {},
-                                          icon: const Icon(
-                                            Icons.favorite_border,
-                                            color: Colors.red,
-                                          ),
-                                        ),
                                       ],
                                     )
                                   ],

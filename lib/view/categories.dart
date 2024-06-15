@@ -6,7 +6,6 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
-
 import 'package:newsapp_api/controller/category_provider.dart';
 import 'package:newsapp_api/model/category_model.dart';
 import 'package:newsapp_api/view/categori_details.dart';

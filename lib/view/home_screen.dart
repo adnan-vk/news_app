@@ -35,6 +35,26 @@ class HomeScreen extends StatelessWidget {
         builder: (context, value, child) {
           return ListView(
             children: [
+              TextFormField(
+                style: const TextStyle(fontSize: 14.0),
+                decoration: InputDecoration(
+                  prefixIcon: const Icon(
+                    Icons.search,
+                    color: Colors.black,
+                  ),
+                  hintText: "Search",
+                  hintStyle: const TextStyle(color: Colors.black),
+                  contentPadding: const EdgeInsets.symmetric(
+                      vertical: 10.0, horizontal: 15.0),
+                  border: OutlineInputBorder(
+                    borderSide: BorderSide.none,
+                    borderRadius: BorderRadius.circular(50),
+                  ),
+                  filled: true,
+                  fillColor: const Color.fromARGB(255, 234, 233, 233),
+                ),
+                onChanged: (value) {},
+              ),
               SizedBox(
                 height: height * .55,
                 width: width,
